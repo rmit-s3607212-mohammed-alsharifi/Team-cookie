@@ -1,5 +1,6 @@
 package strategicGame;
 
-public class player {
+public class player 
+{
 
 }
