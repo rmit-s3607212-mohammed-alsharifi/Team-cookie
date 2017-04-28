@@ -10,7 +10,8 @@ public class protagonist
 	boolean contactFood; 
 	int victoryTime;
 	int poisonTime;
-	int doublePoisonTime;	
+	int doublePoisonTime = 0;	{
+	
 	
 	if(contactFood == true)
 	{
@@ -34,6 +35,10 @@ public class protagonist
 	
 	if(victoryTime == 0)
 	{
-		System.out.println("Congratulations, you win")
+		System.out.println("Congratulations, you win");
 	}
 }
+	
+}
+
+
