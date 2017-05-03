@@ -1,6 +1,6 @@
 package strategicGame;
 
-public class monster extends character
+public class monster extends cell
 {
 	private int currentspeed = 2;
 	private int x;

@@ -1,6 +1,6 @@
 package strategicGame;
 
-public class protagonist extends character
+public class protagonist extends cell
 {
 	public protagonist(int x, int y, int s)
 	private int currentspeed = 12;
@@ -20,11 +20,13 @@ public class protagonist extends character
 			isDoublePoisoned = true;
 			doublepTime = poisonTime; 
 			poisonTime = 20; 
+			currentspeed = currentspeed/2;
 		}
 		else
 		{
 			isPoisoned = true;
 			poisonTime = 20;
+			currentspeed = currentspeed/2;
 			
 		}
 	}
@@ -32,10 +34,5 @@ public class protagonist extends character
 	if(contactMonster == true)
 	{
 		System.out.println("Game over, you lose");
-	}
-	
-	if(victoryTime == 0)
-	{
-		System.out.println("Congratulations, you win")
 	}
 }
