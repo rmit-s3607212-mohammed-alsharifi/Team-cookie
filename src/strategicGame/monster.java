@@ -1,6 +1,6 @@
 package strategicGame;
 
-public class monster 
+public class monster extends character
 {
 	private int currentspeed = 2;
 	private int x;

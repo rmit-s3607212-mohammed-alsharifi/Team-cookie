@@ -1,29 +1,31 @@
 package strategicGame;
 
-public class protagonist 
+public class protagonist extends character
 {
-	int cellX;
-	int cellY;
-	boolean isPoisoned;
-	boolean isDoublePoisoned;
-	boolean contactMonster;
-	boolean contactFood; 
-	int victoryTime;
-	int poisonTime;
-	int doublePoisonTime;	
+	public protagonist(int x, int y, int s)
+	private int currentspeed = 12;
+	private int x;
+	private int y;
+	private boolean isPoisoned;
+	private boolean isDoublePoisoned;
+	private boolean contactMonster;
+	private boolean contactFood; 
+	private int poisonTime;
+	private int doublepTime;	
 	
 	if(contactFood == true)
 	{
 		if(isPoisoned == true)
 		{
 			isDoublePoisoned = true;
-			doublePoisonTime = poisonTime; 
+			doublepTime = poisonTime; 
 			poisonTime = 20; 
 		}
 		else
 		{
 			isPoisoned = true;
 			poisonTime = 20;
+			
 		}
 	}
 	
