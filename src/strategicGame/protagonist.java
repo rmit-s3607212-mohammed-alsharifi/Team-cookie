@@ -42,3 +42,31 @@ public class protagonist
 }
 
 
+//Pseudocode
+/*
+
+checkUp()
+{
+	switch(playerLocation[row,col++])
+		case : IMPASSABLE/1
+			timeAdvance();
+			break;
+		case : EMPTY/2
+			playerPosition = playerPosition[row,col++];
+			playerPosition[row,col--] = empty/2;
+			timeAdvance();
+			break;
+		case : MONSTER/3
+			killPlayer;
+			break;
+		case : FOOD/5
+			
+}	
+
+
+*/
+
+
+
+
+
