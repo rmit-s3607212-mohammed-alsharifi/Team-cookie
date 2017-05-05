@@ -49,15 +49,14 @@ checkUp()
 {
 	switch(playerLocation[row,col++])
 		case : IMPASSABLE/1
-			timeAdvance();
 			break;
 		case : EMPTY/2
 			playerPosition = playerPosition[row,col++];
 			playerPosition[row,col--] = empty/2;
-			timeAdvance();
 			break;
-		case : MONSTER/3
+		case : MONSTER1/3
 			killPlayer;
+			monster1Position[row,col] == PLAYERMONSTERCONTACT/8
 			break;
 		case : FOOD/5
 			
