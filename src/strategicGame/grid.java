@@ -2,6 +2,7 @@
 
 package strategicGame;
 
+/*
 import javafx.application.Application;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
@@ -9,18 +10,42 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
+*/
 
-import strategicGame.cell.Contents;
+//import strategicGame.cell.Contents;
 
 public class grid
 {
 
 //These two ints are for use in the RenderGameboard function.
-static int col;
-static int row;
+//static int col;
+//static int row;
 
+food foodvariable = cell.foodref;
 
-cell cellref = new cell();
+//cell cellref = new cell();
+
+void checkvar()
+{
+	
+	if (foodvariable.live == true)
+	{
+		System.out.print("Success!");
+	}
+
+}
+
+/*
+void returnContent()
+{
+	if foodvariablle == cell.food;
+	{
+		System.out.print("0");
+	}
+}
+*/
+
+}
 
 
 /*
@@ -64,20 +89,22 @@ static Contents CONTACTMONSTERFOOD;
  */
 
 //A sample grid that gives the player and monsters adequate room to strategise.
+/*
+	static int[][] sampleGrid = 
+	{
+			{1,1,1,1,1,1,1,1,1,1},
+			{1,5,2,2,2,2,2,2,2,1},
+			{1,2,1,2,1,1,2,1,2,1},
+			{1,2,1,2,1,1,2,1,2,1},
+			{1,2,1,2,2,2,2,1,2,1},
+			{1,2,2,2,1,1,2,2,2,1},
+			{1,2,2,2,2,2,2,2,2,1},
+			{1,2,1,1,2,2,1,1,2,1},
+			{1,3,2,2,4,2,2,2,2,1},
+			{1,1,1,1,1,1,1,1,1,1}
+	};
+*/
 
-static int[][] sampleGrid = 
-{
-		{1,1,1,1,1,1,1,1,1,1},
-		{1,5,2,2,2,2,2,2,2,1},
-		{1,2,1,2,1,1,2,1,2,1},
-		{1,2,1,2,1,1,2,1,2,1},
-		{1,2,1,2,2,2,2,1,2,1},
-		{1,2,2,2,1,1,2,2,2,1},
-		{1,2,2,2,2,2,2,2,2,1},
-		{1,2,1,1,2,2,1,1,2,1},
-		{1,3,2,2,4,2,2,2,2,1},
-		{1,1,1,1,1,1,1,1,1,1}
-};
 
 //Make each item a reference to the cell class!
 /*
@@ -142,7 +169,7 @@ static Contents[][] sampleGrid =
 */
 
 //This is the correct function!
-
+/*
 public void RenderGameboard(){
 
 	for (col = 0; col <= 9; col++)
@@ -194,10 +221,10 @@ public void RenderGameboard(){
 	}
 }
 
+*/
 
 
 
-}
 
 /*
 {

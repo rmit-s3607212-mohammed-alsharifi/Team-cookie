@@ -1,10 +1,29 @@
 package strategicGame;
 
-import strategicGame.cell.Contents;
+//import strategicGame.cell.Contents;
 
 public class cell 
 {
+
+	//public static cell foodref;
 	
+	static food foodref = new food();
+	//public boolean live;
+	//public boolean live;
+	
+	void checkvar()
+	{
+		
+		if (foodref.live == true)
+		{
+			
+		}
+
+	}
+	
+	
+	//public static final String food = null;
+	/*
 	public enum Contents
 	{
 		IMPASSABLE,
@@ -30,5 +49,5 @@ public class cell
 	static Contents CONTACTPLAYERMONSTER;
 	static Contents CONTACTPLAYERFOOD;
 	static Contents CONTACTMONSTERFOOD;
-
+*/
 }

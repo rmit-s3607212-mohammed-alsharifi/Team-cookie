@@ -1,6 +1,6 @@
 package strategicGame;
 
-public class protagonist 
+public class protagonist extends cell
 {
 	int cellX;
 	int cellY;

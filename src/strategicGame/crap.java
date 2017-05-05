@@ -1,5 +1,5 @@
 package strategicGame;
 
-public class monster {
+public class crap {
 
 }
