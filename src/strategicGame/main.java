@@ -18,8 +18,11 @@ public class main
 	    Scanner input=new Scanner(System.in);
 	    
 	    //gridref.checkvar();
-	    gridref.changeFood2();
-	    gridref.CheckArray();
+	    //gridref.changeFood2();
+	    
+	    //gridref.CheckArray();
+	    gridref.setTerrain();
+	    gridref.printTerrain();
 	    
 		System.out.println("Welcome");
 		System.out.println("Please enter an username");

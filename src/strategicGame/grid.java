@@ -24,8 +24,64 @@ static int row;
 food food1 = new food();
 food food2 = new food();
 
+cell c00 = new cell();
+cell c01 = new cell();
+cell c10 = new cell();
+cell c11 = new cell();
 
+cell playArea[][] = {
 
+{c00,c01},
+{c10,c11}
+
+};
+/*
+cell playArea[][]  = 
+{
+	{c00,c01,new cell(),new cell(),new cell(),new cell(),new cell(),new cell(),new cell(),new cell()},
+	{new cell(),new cell(),new cell(),new cell(),new cell(),new cell(),new cell(),new cell(),new cell(),new cell()},
+	{new cell(),new cell(),new cell(),new cell(),new cell(),new cell(),new cell(),new cell(),new cell(),new cell()},
+	{new cell(),new cell(),new cell(),new cell(),new cell(),new cell(),new cell(),new cell(),new cell(),new cell()},
+	{new cell(),new cell(),new cell(),new cell(),new cell(),new cell(),new cell(),new cell(),new cell(),new cell()},
+	{new cell(),new cell(),new cell(),new cell(),new cell(),new cell(),new cell(),new cell(),new cell(),new cell()},
+	{new cell(),new cell(),new cell(),new cell(),new cell(),new cell(),new cell(),new cell(),new cell(),new cell()},
+	{new cell(),new cell(),new cell(),new cell(),new cell(),new cell(),new cell(),new cell(),new cell(),new cell()},
+	{new cell(),new cell(),new cell(),new cell(),new cell(),new cell(),new cell(),new cell(),new cell(),new cell()},
+	{new cell(),new cell(),new cell(),new cell(),new cell(),new cell(),new cell(),new cell(),new cell(),new cell()}
+};
+*/
+
+void setTerrain()
+{
+	c00.setPassable(true);
+	c01.setPassable(true);
+	c10.setPassable(true);
+	c11.setPassable(false);
+	//playArea[2][2].setPassable(false);
+}
+
+public void printTerrain()
+{
+
+	for (col = 0; col <= 1; col++)
+	{
+		for (row = 0;  row <= 1; row++)
+		{
+			if (playArea[col][row].getPassable() == false)//Impassable
+			{
+				System.out.print("0");
+			}
+			else if (playArea[col][row].getPassable() == true)
+			{
+				System.out.print("_");
+			}
+			
+		}
+		
+		System.out.println();
+				
+	}
+}
 
 //cell cellref = new cell();
 /*
@@ -44,7 +100,7 @@ void checkvar()
 	}
 }
 */
-cell[] cellGrid = {food1,food2};
+//cell[] cellGrid = {food1,food2};
 
 
 public void changeFood2()
@@ -53,9 +109,11 @@ public void changeFood2()
 	food2.setLiveFalse();
 }
 
+
+
+/*
 	public void CheckArray()
 	{
-
 		for (col = 0; col <= 1; col++)
 		{
 			if (cellGrid[col] == food1)
@@ -70,7 +128,7 @@ public void changeFood2()
 			}		
 		}
 	}
-
+*/
 
 		
 }

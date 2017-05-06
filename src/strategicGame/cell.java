@@ -5,6 +5,20 @@ package strategicGame;
 public class cell 
 {
 
+	public static boolean passable = true;
+	
+	public boolean getPassable()
+	{
+		return passable;
+	}
+	
+	public void setPassable(boolean newValue)
+	{
+		passable = newValue;
+	}
+	
+	public static boolean occupied;
+	
 	//public static cell foodref;
 	
 
