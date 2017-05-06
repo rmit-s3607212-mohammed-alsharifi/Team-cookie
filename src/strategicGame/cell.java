@@ -7,10 +7,10 @@ public class cell
 
 	//public static cell foodref;
 	
-	static food foodref = new food();
+
 	//public boolean live;
 	//public boolean live;
-	
+	/*
 	void checkvar()
 	{
 		
@@ -19,7 +19,7 @@ public class cell
 			
 		}
 	}
-	
+	*/
 	
 	//public static final String food = null;
 	/*

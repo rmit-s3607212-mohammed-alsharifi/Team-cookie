@@ -17,7 +17,8 @@ public class main
 	    String password;
 	    Scanner input=new Scanner(System.in);
 	    
-	    gridref.checkvar();
+	    //gridref.checkvar();
+	    //gridref.changeFood2();
 	    gridref.CheckArray();
 	    
 		System.out.println("Welcome");

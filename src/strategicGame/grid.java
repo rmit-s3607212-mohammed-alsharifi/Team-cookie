@@ -21,44 +21,57 @@ public class grid
 static int col;
 static int row;
 
-food foodvariable = cell.foodref;
+food food1 = new food();
+food food2 = new food();
+
+
+
 
 //cell cellref = new cell();
-
-
-
+/*
+for (i = 1; i <= 2; i++)
+{
+	
+}
+*/
+/*
 void checkvar()
 {
-	if (foodvariable.live == true)
+	if (food2.live == true)
 	{
+		food2.live = false;
 		System.out.print("Success!");
 	}
 }
+*/
+cell[] cellGrid = {food1,food2};
 
-cell[][] cellGrid = 
+public void changeFood2()
 {
-		{cell.foodref,cell.foodref},
-		{cell.foodref,cell.foodref}
-};
-
+	food2.live = false;
+}
 
 	public void CheckArray()
 	{
 
 		for (col = 0; col <= 1; col++)
 		{
-			for (row = 0;  row <= 1; row++)
+			if (cellGrid[col] == food1)
 			{
-				System.out.print(cellGrid[col][row].foodref.live);
+				System.out.print(food1.live);
 			}
-		{
-}
+			else if (cellGrid[col] == food2)
+			{
+				System.out.print(food2.live);
+			}		
+		}
+	}
 
-}
+
 		
 }
 
-}
+
 /*
 void returnContent()
 {
