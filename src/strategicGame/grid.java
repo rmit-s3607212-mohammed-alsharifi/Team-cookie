@@ -46,9 +46,11 @@ void checkvar()
 */
 cell[] cellGrid = {food1,food2};
 
+
 public void changeFood2()
 {
-	food2.live = false;
+	//food2.live = false;
+	food2.setLiveFalse();
 }
 
 	public void CheckArray()
@@ -58,11 +60,13 @@ public void changeFood2()
 		{
 			if (cellGrid[col] == food1)
 			{
-				System.out.print(food1.live);
+				food1.getLive();
+				//System.out.print(food1.live);
 			}
 			else if (cellGrid[col] == food2)
 			{
-				System.out.print(food2.live);
+				food2.getLive();
+				//System.out.print(food2.live);
 			}		
 		}
 	}

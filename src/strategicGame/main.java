@@ -18,7 +18,7 @@ public class main
 	    Scanner input=new Scanner(System.in);
 	    
 	    //gridref.checkvar();
-	    //gridref.changeFood2();
+	    gridref.changeFood2();
 	    gridref.CheckArray();
 	    
 		System.out.println("Welcome");

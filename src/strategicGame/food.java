@@ -2,7 +2,25 @@ package strategicGame;
 
 public class food extends cell
 {
-	public static boolean live = true;
+	private boolean live = true;
 	
-	int foodTime = 20;
+	public void getLive()
+	{
+		//return live;
+		System.out.print(live);
+	}
+	
+	public void setLiveFalse()
+	{
+		live = false;
+		
+	}
+	
+	public void setLiveTrue()
+	{
+		live = true;
+
+	}
+	
+	//int foodTime = 20;
 }
