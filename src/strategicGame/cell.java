@@ -5,7 +5,7 @@ package strategicGame;
 public class cell 
 {
 
-	public static boolean passable = true;
+	private boolean passable = true;
 	
 	public boolean getPassable()
 	{
@@ -17,7 +17,7 @@ public class cell
 		passable = newValue;
 	}
 	
-	public static boolean occupied;
+	//public static boolean occupied;
 	
 	//public static cell foodref;
 	

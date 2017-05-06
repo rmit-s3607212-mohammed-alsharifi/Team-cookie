@@ -26,15 +26,224 @@ food food2 = new food();
 
 cell c00 = new cell();
 cell c01 = new cell();
+cell c02 = new cell();
+cell c03 = new cell();
+cell c04 = new cell();
+cell c05 = new cell();
+cell c06 = new cell();
+cell c07 = new cell();
+cell c08 = new cell();
+cell c09 = new cell();
+
 cell c10 = new cell();
 cell c11 = new cell();
+cell c12 = new cell();
+cell c13 = new cell();
+cell c14 = new cell();
+cell c15 = new cell();
+cell c16 = new cell();
+cell c17 = new cell();
+cell c18 = new cell();
+cell c19 = new cell();
+
+cell c20 = new cell();
+cell c21 = new cell();
+cell c22 = new cell();
+cell c23 = new cell();
+cell c24 = new cell();
+cell c25 = new cell();
+cell c26 = new cell();
+cell c27 = new cell();
+cell c28 = new cell();
+cell c29 = new cell();
+
+cell c30 = new cell();
+cell c31 = new cell();
+cell c32 = new cell();
+cell c33 = new cell();
+cell c34 = new cell();
+cell c35 = new cell();
+cell c36 = new cell();
+cell c37 = new cell();
+cell c38 = new cell();
+cell c39 = new cell();
+
+cell c40 = new cell();
+cell c41 = new cell();
+cell c42 = new cell();
+cell c43 = new cell();
+cell c44 = new cell();
+cell c45 = new cell();
+cell c46 = new cell();
+cell c47 = new cell();
+cell c48 = new cell();
+cell c49 = new cell();
+
+cell c50 = new cell();
+cell c51 = new cell();
+cell c52 = new cell();
+cell c53 = new cell();
+cell c54 = new cell();
+cell c55 = new cell();
+cell c56 = new cell();
+cell c57 = new cell();
+cell c58 = new cell();
+cell c59 = new cell();
+
+cell c60 = new cell();
+cell c61 = new cell();
+cell c62 = new cell();
+cell c63 = new cell();
+cell c64 = new cell();
+cell c65 = new cell();
+cell c66 = new cell();
+cell c67 = new cell();
+cell c68 = new cell();
+cell c69 = new cell();
+
+cell c70 = new cell();
+cell c71 = new cell();
+cell c72 = new cell();
+cell c73 = new cell();
+cell c74 = new cell();
+cell c75 = new cell();
+cell c76 = new cell();
+cell c77 = new cell();
+cell c78 = new cell();
+cell c79 = new cell();
+
+cell c80 = new cell();
+cell c81 = new cell();
+cell c82 = new cell();
+cell c83 = new cell();
+cell c84 = new cell();
+cell c85 = new cell();
+cell c86 = new cell();
+cell c87 = new cell();
+cell c88 = new cell();
+cell c89 = new cell();
+
+cell c90 = new cell();
+cell c91 = new cell();
+cell c92 = new cell();
+cell c93 = new cell();
+cell c94 = new cell();
+cell c95 = new cell();
+cell c96 = new cell();
+cell c97 = new cell();
+cell c98 = new cell();
+cell c99 = new cell();
+
+
+void setTerrain()
+{
+	c00.setPassable(false);
+	c01.setPassable(false);
+	c02.setPassable(false);
+	c03.setPassable(false);
+	c04.setPassable(false);
+	c05.setPassable(false);
+	c06.setPassable(false);
+	c07.setPassable(false);
+	c08.setPassable(false);
+	c09.setPassable(false);
+	c10.setPassable(false);
+	
+	c10.setPassable(false);
+	c19.setPassable(false);
+	
+	c20.setPassable(false);
+	c22.setPassable(false);
+	c24.setPassable(false);
+	c25.setPassable(false);
+	c27.setPassable(false);
+	c29.setPassable(false);
+	
+	c30.setPassable(false);
+	c32.setPassable(false);
+	c34.setPassable(false);
+	c35.setPassable(false);
+	c37.setPassable(false);
+	c39.setPassable(false);
+	
+	c40.setPassable(false);
+	c42.setPassable(false);
+	c47.setPassable(false);
+	c49.setPassable(false);
+	
+	c50.setPassable(false);
+	c54.setPassable(false);
+	c55.setPassable(false);
+	c59.setPassable(false);
+	
+	c60.setPassable(false);
+	c69.setPassable(false);
+	
+	c70.setPassable(false);
+	c72.setPassable(false);
+	c73.setPassable(false);
+	c76.setPassable(false);
+	c77.setPassable(false);
+	c79.setPassable(false);
+	
+	c80.setPassable(false);
+	c89.setPassable(false);
+	
+	c90.setPassable(false);
+	c91.setPassable(false);
+	c92.setPassable(false);
+	c93.setPassable(false);
+	c94.setPassable(false);
+	c95.setPassable(false);
+	c96.setPassable(false);
+	c97.setPassable(false);
+	c98.setPassable(false);
+	c99.setPassable(false);
+	
+	
+
+	//playArea[2][2].setPassable(false);
+}
 
 cell playArea[][] = {
 
-{c00,c01},
-{c10,c11}
+{c00,c01,c02,c03,c04,c05,c06,c07,c08,c09},
+{c10,c11,c12,c13,c14,c15,c16,c17,c18,c19},
+{c20,c21,c22,c23,c24,c25,c26,c27,c28,c29},
+{c30,c31,c32,c33,c34,c35,c36,c37,c38,c39},
+{c40,c41,c42,c43,c44,c45,c46,c47,c48,c49},
+{c50,c51,c52,c53,c54,c55,c56,c57,c58,c59},
+{c60,c61,c62,c63,c64,c65,c66,c67,c68,c69},
+{c70,c71,c72,c73,c74,c75,c76,c77,c78,c79},
+{c80,c81,c82,c83,c84,c85,c86,c87,c88,c89},
+{c90,c91,c92,c93,c94,c95,c96,c97,c98,c99},
 
 };
+
+
+
+
+public void printTerrain()
+{
+	for (col = 0; col <= 9; col++)
+	{
+		for (row = 0;  row <= 9; row++)
+		{
+			if (playArea[col][row].getPassable() == false)//Impassable
+			{
+				System.out.print("0");
+			}
+			else if (playArea[col][row].getPassable() == true)
+			{
+				System.out.print("_");
+			}
+			
+		}
+		System.out.println();		
+	}
+}
+
+
 /*
 cell playArea[][]  = 
 {
@@ -50,38 +259,6 @@ cell playArea[][]  =
 	{new cell(),new cell(),new cell(),new cell(),new cell(),new cell(),new cell(),new cell(),new cell(),new cell()}
 };
 */
-
-void setTerrain()
-{
-	c00.setPassable(true);
-	c01.setPassable(true);
-	c10.setPassable(true);
-	c11.setPassable(false);
-	//playArea[2][2].setPassable(false);
-}
-
-public void printTerrain()
-{
-
-	for (col = 0; col <= 1; col++)
-	{
-		for (row = 0;  row <= 1; row++)
-		{
-			if (playArea[col][row].getPassable() == false)//Impassable
-			{
-				System.out.print("0");
-			}
-			else if (playArea[col][row].getPassable() == true)
-			{
-				System.out.print("_");
-			}
-			
-		}
-		
-		System.out.println();
-				
-	}
-}
 
 //cell cellref = new cell();
 /*
@@ -102,13 +279,13 @@ void checkvar()
 */
 //cell[] cellGrid = {food1,food2};
 
-
+/*
 public void changeFood2()
 {
 	//food2.live = false;
 	food2.setLiveFalse();
 }
-
+*/
 
 
 /*
