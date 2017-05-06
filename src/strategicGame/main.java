@@ -18,6 +18,7 @@ public class main
 	    Scanner input=new Scanner(System.in);
 	    
 	    gridref.checkvar();
+	    gridref.CheckArray();
 	    
 		System.out.println("Welcome");
 		System.out.println("Please enter an username");

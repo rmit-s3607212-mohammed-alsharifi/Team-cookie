@@ -18,23 +18,47 @@ public class grid
 {
 
 //These two ints are for use in the RenderGameboard function.
-//static int col;
-//static int row;
+static int col;
+static int row;
 
 food foodvariable = cell.foodref;
 
 //cell cellref = new cell();
 
+
+
 void checkvar()
 {
-	
 	if (foodvariable.live == true)
 	{
 		System.out.print("Success!");
 	}
-
 }
 
+cell[][] cellGrid = 
+{
+		{cell.foodref,cell.foodref},
+		{cell.foodref,cell.foodref}
+};
+
+
+	public void CheckArray()
+	{
+
+		for (col = 0; col <= 1; col++)
+		{
+			for (row = 0;  row <= 1; row++)
+			{
+				System.out.print(cellGrid[col][row].foodref.live);
+			}
+		{
+}
+
+}
+		
+}
+
+}
 /*
 void returnContent()
 {
@@ -45,7 +69,6 @@ void returnContent()
 }
 */
 
-}
 
 
 /*
